@@ -1,4 +1,4 @@
-(ns clojure-algorithm-stuffs.core)
+(ns clojure-algorithm-stuffs.sort)
 
 (def ^:const quicksort-threshold 10)
 

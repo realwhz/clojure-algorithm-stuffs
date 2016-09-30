@@ -1,6 +1,6 @@
-(ns clojure-algorithm-stuffs.core-test
+(ns clojure-algorithm-stuffs.sort-test
   (:require [clojure.test :refer :all]
-            [clojure-algorithm-stuffs.core :refer :all]))
+            [clojure-algorithm-stuffs.sort :refer :all]))
 
 (deftest a-test
   (testing "median-of-three"
