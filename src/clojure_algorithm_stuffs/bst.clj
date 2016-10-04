@@ -121,3 +121,8 @@
   (cond
     (bst-empty? BST) true
     :else (and (= (bst-height (bst-left BST)) (bst-balanced? (bst-left BST)) (bst-balanced? (bst-right BST))))))
+
+(defn bst-sort
+  "Sort based on BST"
+  [col]
+  (bst-traverse-inorder (reduce bst-add () col)))
